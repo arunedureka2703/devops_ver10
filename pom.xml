@@ -32,11 +32,7 @@
 		</dependency>
 		
 
-  	<dependency>
-  		<groupId>MyFirstTestcase</groupId>
-  		<artifactId>MyFirstTestcase</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+  	
   </dependencies>
   <build>
         <defaultGoal>install</defaultGoal>

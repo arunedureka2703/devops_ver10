@@ -13,12 +13,8 @@ public class First1 {
 	
   @Test
   public void f() {
-	  System.setProperty("webdriver.chrome.driver", "F:\\Selenium\\chromedriver.exe");  
-	  //System.setProperty("webdriver.http.factory", "jdk-http-client");
-		WebDriver driver = new ChromeDriver();  
-		//ChromeOptions chromeOptions = new ChromeOptions();
-		 //chromeOptions.addArguments("--remote-allow-origins=*");
-		 //ChromeDriver driver = new ChromeDriver(chromeOptions); 
+	  System.setProperty("webdriver.chrome.driver", "F:\\Selenium\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver(); 
 	      
 	// Launch website  
 	    driver.navigate().to("http://www.edureka.co/");  
